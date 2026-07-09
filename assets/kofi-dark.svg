@@ -19,5 +19,7 @@
   <path class="steam s2" d="M48 26 c 1.5 -2, -1.5 -4, 0 -6" stroke-width="1.4" stroke-linecap="round"/>
   <text class="title" x="78" y="33">Support my work</text>
   <text class="mono" x="78" y="52">KO-FI.COM/SAHILJO</text>
-  <text class="arw" x="848" y="42" text-anchor="end">↗</text>
+  <rect x="806" y="29" width="24" height="16" rx="4" stroke="#9198A1" stroke-width="1.4"/>
+  <path d="M830 32 h3 a4.5 4.5 0 0 1 0 9 h-3" stroke="#9198A1" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M818 42.2 c -1.2 -0.9 -4.6 -3.1 -4.6 -5.5 c 0 -1.6 1.2 -2.7 2.5 -2.7 c 0.9 0 1.6 0.5 2.1 1.1 c 0.5 -0.6 1.2 -1.1 2.1 -1.1 c 1.3 0 2.5 1.1 2.5 2.7 c 0 2.4 -3.4 4.6 -4.6 5.5 z" fill="#7C86F8"/>
 </svg>
