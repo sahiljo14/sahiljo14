@@ -1,0 +1,21 @@
+<svg width="880" height="172" viewBox="0 0 880 172" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="sahiljo14 — embedded systems, digital design, full-stack development, open source">
+  <style>
+    .mono { font: 500 12px ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; letter-spacing: 2px; fill: #818B98; }
+    .name { font: 650 42px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; letter-spacing: -1px; fill: #1F2328; }
+    .sub  { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #59636E; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+    .rule { transform: scaleX(0); transform-box: fill-box; transform-origin: left center; animation: draw 0.9s cubic-bezier(0.2, 0.7, 0.3, 1) 0.3s forwards; }
+    @keyframes draw { to { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse { animation: none; opacity: 1; }
+      .rule { animation: none; transform: none; }
+    }
+  </style>
+  <circle class="pulse" cx="5" cy="18" r="3" fill="#4F46E5"/>
+  <text class="mono" x="18" y="23">INDIA — 20.59° N / 78.96° E</text>
+  <text class="name" x="0" y="76">sahiljo14</text>
+  <rect class="rule" x="2" y="90" width="56" height="3" rx="1.5" fill="#4F46E5"/>
+  <text class="sub" x="0" y="124">Building across the stack — Verilog CPUs, ESP8266 firmware, full-stack platforms, and mobile apps.</text>
+  <text class="mono" x="0" y="162">EMBEDDED&#160;&#160;·&#160;&#160;DIGITAL DESIGN&#160;&#160;·&#160;&#160;FULL-STACK&#160;&#160;·&#160;&#160;MOBILE&#160;&#160;·&#160;&#160;OPEN SOURCE</text>
+</svg>

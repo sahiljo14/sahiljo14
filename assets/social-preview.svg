@@ -1,0 +1,28 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="sahiljo14 — embedded systems, full-stack platforms, open source">
+  <style>
+    .mono { font: 500 20px ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; letter-spacing: 4px; fill: #6E7681; }
+    .name { font: 650 96px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; letter-spacing: -2.5px; fill: #F0F6FC; }
+    .sub  { font: 400 30px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #9198A1; }
+  </style>
+  <rect width="1280" height="640" fill="#0D1117"/>
+  <defs>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#21262D"/>
+    </pattern>
+    <linearGradient id="dotfade" x1="0" y1="0" x2="0" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fadeMask">
+      <rect width="1280" height="640" fill="url(#dotfade)"/>
+    </mask>
+  </defs>
+  <rect width="1280" height="640" fill="url(#dots)" mask="url(#fadeMask)"/>
+  <circle cx="96" cy="176" r="5" fill="#7C86F8"/>
+  <text class="mono" x="116" y="184">GITHUB.COM/SAHILJO14</text>
+  <text class="name" x="90" y="312">sahiljo14</text>
+  <text class="sub" x="94" y="382">embedded systems&#160;&#160;·&#160;&#160;full-stack platforms&#160;&#160;·&#160;&#160;open source</text>
+  <rect x="94" y="430" width="56" height="3" rx="1.5" fill="#7C86F8"/>
+  <text class="mono" x="94" y="496">INDIA — ECE UNDERGRAD — OPEN SOURCE</text>
+</svg>

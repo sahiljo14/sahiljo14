@@ -1,0 +1,49 @@
+<svg width="880" height="176" viewBox="0 0 880 176" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RISC-V single-cycle processor — a complete CPU in Verilog with datapath, ALU, register file, control unit, and testbenches.">
+  <style>
+    .kick { font: 600 11px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 2px; fill: #818B98; }
+    .num  { fill: #4F46E5; }
+    .title{ font: 600 22px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; letter-spacing: -0.3px; fill: #1F2328; }
+    .desc { font: 400 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #59636E; }
+    .chip { font: 500 11.5px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 0.5px; fill: #818B98; }
+    .lbl  { font: 500 9px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 0.5px; fill: #59636E; }
+    .cap  { font: 500 9px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 1.5px; fill: #818B98; }
+    .arw  { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #818B98; }
+    .flow { offset-path: path('M 604 60 L 800 60'); opacity: 0; animation: flow 2.8s linear infinite; }
+    @keyframes flow {
+      0%   { offset-distance: 0%;   opacity: 0; }
+      12%  { opacity: 1; }
+      88%  { opacity: 1; }
+      100% { offset-distance: 100%; opacity: 0; }
+    }
+    .clk { stroke-dasharray: 100; animation: clk 5s linear infinite; }
+    @keyframes clk { 0% { stroke-dashoffset: 0; } 45% { stroke-dashoffset: 0; } 55% { stroke-dashoffset: 100; } 100% { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .flow { animation: none; opacity: 0; }
+      .clk { animation: none; stroke-dashoffset: 0; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="175" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <text class="kick" x="32" y="42"><tspan class="num">03</tspan><tspan dx="12">DIGITAL DESIGN</tspan></text>
+  <text class="title" x="32" y="76">RISC-V Single-Cycle Processor</text>
+  <text class="desc" x="32" y="102">A complete CPU in Verilog — datapath, ALU, 32-register file, control</text>
+  <text class="desc" x="32" y="122">unit, and memory interface, verified with behavioral testbenches.</text>
+  <text class="chip" x="32" y="152">Verilog HDL · Vivado · ModelSim</text>
+  <text class="arw" x="848" y="38" text-anchor="end">↗</text>
+  <line x1="604" y1="60" x2="620" y2="60" stroke="#D0D7DE" stroke-width="1.2"/>
+  <line x1="664" y1="60" x2="680" y2="60" stroke="#D0D7DE" stroke-width="1.2"/>
+  <line x1="724" y1="60" x2="740" y2="60" stroke="#D0D7DE" stroke-width="1.2"/>
+  <line x1="784" y1="60" x2="800" y2="60" stroke="#D0D7DE" stroke-width="1.2"/>
+  <circle class="flow" r="3" fill="#4F46E5"/>
+  <rect x="560" y="48" width="44" height="24" rx="5" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="582" y="63" text-anchor="middle">PC</text>
+  <rect x="620" y="48" width="44" height="24" rx="5" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="642" y="63" text-anchor="middle">IMEM</text>
+  <rect x="680" y="48" width="44" height="24" rx="5" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="702" y="63" text-anchor="middle">RF</text>
+  <rect x="740" y="48" width="44" height="24" rx="5" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="762" y="63" text-anchor="middle">ALU</text>
+  <rect x="800" y="48" width="44" height="24" rx="5" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="822" y="63" text-anchor="middle">DMEM</text>
+  <text class="cap" x="560" y="103">CLK</text>
+  <path class="clk" d="M560 130 h24 v-16 h24 v16 h24 v-16 h24 v16 h24 v-16 h24 v16 h24 v-16 h24 v16 h24 v-16 h24 v16 h24" pathLength="100" stroke="#4F46E5" stroke-width="1.5" stroke-opacity="0.85" fill="none"/>
+</svg>

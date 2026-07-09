@@ -1,0 +1,42 @@
+<svg width="880" height="176" viewBox="0 0 880 176" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EnviroSense — full-stack IoT platform streaming sensor data over MQTT into PostgreSQL and a live React dashboard. Node.js, React, MQTT, PostgreSQL.">
+  <style>
+    .kick { font: 600 11px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 2px; fill: #6E7681; }
+    .num  { fill: #7C86F8; }
+    .title{ font: 600 22px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; letter-spacing: -0.3px; fill: #F0F6FC; }
+    .desc { font: 400 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #9198A1; }
+    .chip { font: 500 11.5px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 0.5px; fill: #6E7681; }
+    .lbl  { font: 500 9.5px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 1px; fill: #9198A1; }
+    .cap  { font: 500 9px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 1.5px; fill: #6E7681; }
+    .arw  { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #6E7681; }
+    .flow { offset-path: path('M 614 88 L 792 88'); opacity: 0; animation: flow 3.2s linear infinite; }
+    .d2   { animation-delay: 1.6s; }
+    @keyframes flow {
+      0%   { offset-distance: 0%;   opacity: 0; }
+      12%  { opacity: 1; }
+      88%  { opacity: 1; }
+      100% { offset-distance: 100%; opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; opacity: 0; } }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="175" rx="12" fill="#161B22" stroke="#30363D"/>
+  <text class="kick" x="32" y="42"><tspan class="num">02</tspan><tspan dx="12">FULL-STACK · IOT</tspan></text>
+  <text class="title" x="32" y="76">EnviroSense</text>
+  <text class="desc" x="32" y="102">Sensor data streams over MQTT into PostgreSQL and onto a live React</text>
+  <text class="desc" x="32" y="122">dashboard — weather and air-quality integration, plus a device simulator.</text>
+  <text class="chip" x="32" y="152">Node.js · React · MQTT · PostgreSQL · Recharts</text>
+  <text class="arw" x="848" y="38" text-anchor="end">↗</text>
+  <line x1="614" y1="88" x2="636" y2="88" stroke="#30363D" stroke-width="1.2"/>
+  <line x1="692" y1="88" x2="714" y2="88" stroke="#30363D" stroke-width="1.2"/>
+  <line x1="770" y1="88" x2="792" y2="88" stroke="#30363D" stroke-width="1.2"/>
+  <circle class="flow" r="3" fill="#7C86F8"/>
+  <circle class="flow d2" r="3" fill="#7C86F8"/>
+  <rect x="558" y="75" width="56" height="26" rx="6" fill="#0D1117" stroke="#30363D"/>
+  <text class="lbl" x="586" y="92" text-anchor="middle">SENSE</text>
+  <rect x="636" y="75" width="56" height="26" rx="6" fill="#0D1117" stroke="#30363D"/>
+  <text class="lbl" x="664" y="92" text-anchor="middle">MQTT</text>
+  <rect x="714" y="75" width="56" height="26" rx="6" fill="#0D1117" stroke="#30363D"/>
+  <text class="lbl" x="742" y="92" text-anchor="middle">DB</text>
+  <rect x="792" y="75" width="56" height="26" rx="6" fill="#0D1117" stroke="#30363D"/>
+  <text class="lbl" x="820" y="92" text-anchor="middle">DASH</text>
+  <text class="cap" x="703" y="124" text-anchor="middle">LIVE READINGS EVERY 2S</text>
+</svg>
