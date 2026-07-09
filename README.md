@@ -47,6 +47,18 @@ Next up is [MangaForge](https://github.com/sahiljo14/MangaForge) — the reposit
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+### Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats/dashboard-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats/dashboard-light.svg">
+  <img src="assets/stats/dashboard-dark.svg" width="100%" alt="GitHub activity dashboard — overview stats, top languages, and contribution history">
+</picture>
+
+<br>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 ### More projects
 
 | Repository | Description | |

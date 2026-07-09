@@ -1,0 +1,2 @@
+# This file ensures the stats directory is tracked by git.
+# Generated SVG files will be placed here by the GitHub Actions workflow.

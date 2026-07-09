@@ -1,0 +1,13 @@
+{
+  "name": "generate-metrics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted GitHub metrics dashboard generator — produces SVG assets matching the profile README design system.",
+  "main": "generate-dashboard.js",
+  "scripts": {
+    "generate": "node generate-dashboard.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

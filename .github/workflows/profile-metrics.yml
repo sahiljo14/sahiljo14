@@ -1,0 +1,87 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# profile-metrics.yml
+#
+# Self-hosted GitHub metrics dashboard generator.
+# Runs daily at 06:00 UTC and on manual trigger.
+# Generates SVG assets inside assets/stats/ and commits only when files
+# actually change — no empty commits, no unnecessary pushes.
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Generate Profile Metrics
+
+on:
+  schedule:
+    # Run once per day at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    # Allow manual triggers from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # ── Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history for accurate diffing
+          fetch-depth: 0
+
+      # ── Setup Node.js ─────────────────────────────────────────────────────
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # ── Generate SVGs ─────────────────────────────────────────────────────
+      - name: Generate dashboard SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: node scripts/generate-metrics/generate-dashboard.js
+
+      # ── Validate generated files ──────────────────────────────────────────
+      - name: Validate SVGs
+        run: |
+          echo "Validating generated SVG files..."
+          for file in assets/stats/dashboard-dark.svg assets/stats/dashboard-light.svg; do
+            if [ ! -f "$file" ]; then
+              echo "✗ Missing: $file"
+              exit 1
+            fi
+            size=$(wc -c < "$file" | tr -d ' ')
+            if [ "$size" -lt 100 ]; then
+              echo "✗ $file is too small ($size bytes) — likely corrupted"
+              exit 1
+            fi
+            if ! grep -q '<svg' "$file"; then
+              echo "✗ $file is not a valid SVG"
+              exit 1
+            fi
+            echo "✓ $file ($size bytes)"
+          done
+          echo "All SVGs validated."
+
+      # ── Smart commit: only if files changed ───────────────────────────────
+      - name: Commit and push (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/stats/
+
+          # Check if there are staged changes
+          if git diff --cached --quiet; then
+            echo "No changes detected — skipping commit."
+            exit 0
+          fi
+
+          echo "Changes detected — committing..."
+          git commit -m "chore: update GitHub metrics dashboard [skip ci]"
+          git push
+          echo "✓ Pushed updated metrics."
