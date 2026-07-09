@@ -86,7 +86,14 @@ Everything here appears in a repository above.
 | LeetCode | [leetcode.com/u/sahiljo](https://leetcode.com/u/sahiljo/) |
 | Email | <!-- TODO: add your email --> _coming soon_ |
 | Portfolio | [sahiljo14.github.io/sahilsportfolio](https://sahiljo14.github.io/sahilsportfolio/) |
-| Support | [ko-fi.com/sahiljo](https://ko-fi.com/sahiljo) |
+
+<a href="https://ko-fi.com/sahiljo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/kofi-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/kofi-light.svg">
+    <img src="assets/kofi-dark.svg" width="100%" alt="Support my work on Ko-fi — ko-fi.com/sahiljo">
+  </picture>
+</a>
 
 <br>
 
