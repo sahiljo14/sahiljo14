@@ -77,23 +77,6 @@ Everything here appears in a repository above.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-### GitHub
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=sahiljo14&show_icons=true&hide_border=true&bg_color=00000000&text_color=9198a1&title_color=f0f6fc&icon_color=7c86f8&ring_color=7c86f8&card_width=440">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=sahiljo14&show_icons=true&hide_border=true&bg_color=00000000&text_color=59636e&title_color=1f2328&icon_color=4f46e5&ring_color=4f46e5&card_width=440">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sahiljo14&show_icons=true&hide_border=true&bg_color=00000000&text_color=9198a1&title_color=f0f6fc&icon_color=7c86f8&ring_color=7c86f8&card_width=440" alt="GitHub stats">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=sahiljo14&layout=compact&hide_border=true&bg_color=00000000&text_color=9198a1&title_color=f0f6fc&langs_count=8&card_width=380">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=sahiljo14&layout=compact&hide_border=true&bg_color=00000000&text_color=59636e&title_color=1f2328&langs_count=8&card_width=380">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahiljo14&layout=compact&hide_border=true&bg_color=00000000&text_color=9198a1&title_color=f0f6fc&langs_count=8&card_width=380" alt="Top languages">
-</picture>
-
-<br>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
 ### Connect
 
 | | |
