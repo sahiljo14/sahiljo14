@@ -18,7 +18,7 @@
     @media (prefers-reduced-motion: reduce) { .flow { animation: none; opacity: 0; } }
   </style>
   <rect x="0.5" y="0.5" width="879" height="175" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
-  <text class="kick" x="32" y="42"><tspan class="num">01</tspan><tspan dx="12">MOBILE · NLP</tspan></text>
+  <text class="kick" x="32" y="42"><tspan class="num">02</tspan><tspan dx="12">MOBILE · NLP</tspan></text>
   <text class="title" x="32" y="76">Nudge</text>
   <text class="desc" x="32" y="102">Parses messy student messages — English, Hinglish, or Marathi — into</text>
   <text class="desc" x="32" y="122">tasks with deadlines. Share straight from WhatsApp. Offline-first.</text>

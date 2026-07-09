@@ -1,13 +1,15 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" width="100%" alt="sahiljo14 — embedded systems, digital design, full-stack development, open source">
+  <img src="assets/hero-dark.svg" width="100%" alt="sahiljo14 — full-stack developer: web platforms, mobile apps, and the embedded layer beneath them">
 </picture>
 
 <br>
 <br>
 
-I'm an Electronics &amp; Communication Engineering student in India. My projects run the whole vertical: a RISC-V CPU implemented in Verilog, weather-station firmware on ESP8266, a full-stack IoT platform that streams sensor data over MQTT into PostgreSQL and a live React dashboard, and a Flutter app that parses Hinglish messages into deadlines. That range is deliberate — understanding the layer below makes you better at the layer above.
+I build full-stack software: a real-time IoT platform that streams sensor data over MQTT into PostgreSQL and a live React dashboard, a link shortener running in production on Render, and a Flutter app that parses Hinglish messages into deadlines.
+
+I'm also an Electronics &amp; Communication Engineering student in India — which is why the same portfolio reaches down to ESP8266 firmware and a RISC-V CPU implemented in Verilog. Understanding the layer below makes you better at the layer above.
 
 Next up is [MangaForge](https://github.com/sahiljo14/MangaForge) — the repository is live, and the first public code lands soon.
 
@@ -17,19 +19,19 @@ Next up is [MangaForge](https://github.com/sahiljo14/MangaForge) — the reposit
 
 ### Featured work
 
-<a href="https://github.com/sahiljo14/nudge-app">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/nudge-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/nudge-light.svg">
-    <img src="assets/cards/nudge-dark.svg" width="100%" alt="Nudge — student task manager that parses English, Hinglish, and Marathi messages into deadlines. Flutter, Dart, SQLite, Android share intents.">
-  </picture>
-</a>
-
 <a href="https://github.com/sahiljo14/fullstack-iot-environment-monitoring-platform">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/cards/envirosense-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/cards/envirosense-light.svg">
     <img src="assets/cards/envirosense-dark.svg" width="100%" alt="EnviroSense — full-stack IoT platform streaming sensor data over MQTT into PostgreSQL and a live React dashboard. Node.js, React, MQTT, PostgreSQL, Recharts.">
+  </picture>
+</a>
+
+<a href="https://github.com/sahiljo14/nudge-app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/nudge-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/nudge-light.svg">
+    <img src="assets/cards/nudge-dark.svg" width="100%" alt="Nudge — student task manager that parses English, Hinglish, and Marathi messages into deadlines. Flutter, Dart, SQLite, Android share intents.">
   </picture>
 </a>
 
@@ -64,29 +66,12 @@ Everything here appears in a repository above.
 
 | | |
 | :--- | :--- |
-| **Languages** | C / C++ · Dart · JavaScript · Python · Java · Verilog |
+| **Languages** | JavaScript · Python · Java · Dart · C / C++ · Verilog |
 | **Frontend** | React · Flutter · HTML / CSS |
 | **Backend** | Node.js · Express · REST APIs · MQTT |
 | **Databases** | PostgreSQL · MongoDB Atlas · SQLite |
 | **Hardware** | ESP8266 / ESP32 · Arduino · DHT &amp; BMP sensors |
 | **Tools** | Git &amp; GitHub · Render · Vivado / ModelSim · MATLAB · Altium Designer |
-
-<br>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-### GitHub
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=sahiljo14&show_icons=true&hide_border=true&bg_color=00000000&text_color=9198a1&title_color=f0f6fc&icon_color=7c86f8&ring_color=7c86f8&card_width=440">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=sahiljo14&show_icons=true&hide_border=true&bg_color=00000000&text_color=59636e&title_color=1f2328&icon_color=4f46e5&ring_color=4f46e5&card_width=440">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sahiljo14&show_icons=true&hide_border=true&bg_color=00000000&text_color=9198a1&title_color=f0f6fc&icon_color=7c86f8&ring_color=7c86f8&card_width=440" alt="GitHub stats">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=sahiljo14&layout=compact&hide_border=true&bg_color=00000000&text_color=9198a1&title_color=f0f6fc&langs_count=8&card_width=380">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=sahiljo14&layout=compact&hide_border=true&bg_color=00000000&text_color=59636e&title_color=1f2328&langs_count=8&card_width=380">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahiljo14&layout=compact&hide_border=true&bg_color=00000000&text_color=9198a1&title_color=f0f6fc&langs_count=8&card_width=380" alt="Top languages">
-</picture>
 
 <br>
 
