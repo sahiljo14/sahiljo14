@@ -1,0 +1,42 @@
+<svg width="880" height="176" viewBox="0 0 880 176" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kairyo — AI-powered desktop app that upscales manga and anime with super-resolution models. Python, PyQt6, PyTorch, Real-ESRGAN.">
+  <style>
+    .kick { font: 600 11px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 2px; fill: #818B98; }
+    .num  { fill: #4F46E5; }
+    .title{ font: 600 22px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; letter-spacing: -0.3px; fill: #1F2328; }
+    .desc { font: 400 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #59636E; }
+    .chip { font: 500 11.5px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 0.5px; fill: #818B98; }
+    .lbl  { font: 500 9.5px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 1px; fill: #59636E; }
+    .cap  { font: 500 9px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 1.5px; fill: #818B98; }
+    .arw  { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #818B98; }
+    .flow { offset-path: path('M 614 88 L 792 88'); opacity: 0; animation: flow 3.2s linear infinite; }
+    .d2   { animation-delay: 1.6s; }
+    @keyframes flow {
+      0%   { offset-distance: 0%;   opacity: 0; }
+      12%  { opacity: 1; }
+      88%  { opacity: 1; }
+      100% { offset-distance: 100%; opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; opacity: 0; } }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="175" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <text class="kick" x="32" y="42"><tspan class="num">04</tspan><tspan dx="12">DESKTOP · AI</tspan></text>
+  <text class="title" x="32" y="76">Kairyo</text>
+  <text class="desc" x="32" y="102">Extracts a manga or anime archive, upscales every page through AI</text>
+  <text class="desc" x="32" y="122">super-resolution on a tiled GPU engine, then repacks it sharper.</text>
+  <text class="chip" x="32" y="152">Python · PyQt6 · PyTorch · Real-ESRGAN</text>
+  <text class="arw" x="848" y="38" text-anchor="end">↗</text>
+  <line x1="614" y1="88" x2="636" y2="88" stroke="#D0D7DE" stroke-width="1.2"/>
+  <line x1="692" y1="88" x2="714" y2="88" stroke="#D0D7DE" stroke-width="1.2"/>
+  <line x1="770" y1="88" x2="792" y2="88" stroke="#D0D7DE" stroke-width="1.2"/>
+  <circle class="flow" r="3" fill="#4F46E5"/>
+  <circle class="flow d2" r="3" fill="#4F46E5"/>
+  <rect x="558" y="75" width="56" height="26" rx="6" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="586" y="92" text-anchor="middle">CBZ</text>
+  <rect x="636" y="75" width="56" height="26" rx="6" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="664" y="92" text-anchor="middle">TILE</text>
+  <rect x="714" y="75" width="56" height="26" rx="6" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="742" y="92" text-anchor="middle">MODEL</text>
+  <rect x="792" y="75" width="56" height="26" rx="6" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text class="lbl" x="820" y="92" text-anchor="middle">4×</text>
+  <text class="cap" x="703" y="124" text-anchor="middle">AI SUPER-RESOLUTION</text>
+</svg>

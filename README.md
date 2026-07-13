@@ -11,7 +11,7 @@ I build full-stack software: a real-time IoT platform that streams sensor data o
 
 I'm also an Electronics &amp; Communication Engineering student in India — which is why the same portfolio reaches down to ESP8266 firmware and a RISC-V CPU implemented in Verilog. Understanding the layer below makes you better at the layer above.
 
-Next up is [MangaForge](https://github.com/sahiljo14/MangaForge) — the repository is live, and the first public code lands soon.
+The newest is [Kairyo](https://github.com/sahiljo14/Kairyo) — a desktop app that upscales manga and anime with AI super-resolution models, built with PyQt6 and PyTorch.
 
 <br>
 
@@ -19,7 +19,7 @@ Next up is [MangaForge](https://github.com/sahiljo14/MangaForge) — the reposit
 
 ### Featured work
 
-<a href="https://github.com/sahiljo14/fullstack-iot-environment-monitoring-platform">
+<a href="https://github.com/sahiljo14/Envirosense">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/cards/envirosense-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/cards/envirosense-light.svg">
@@ -40,6 +40,14 @@ Next up is [MangaForge](https://github.com/sahiljo14/MangaForge) — the reposit
     <source media="(prefers-color-scheme: dark)" srcset="assets/cards/riscv-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/cards/riscv-light.svg">
     <img src="assets/cards/riscv-dark.svg" width="100%" alt="RISC-V single-cycle processor — a complete CPU in Verilog with datapath, ALU, register file, control unit, and testbenches. Verilog HDL, Vivado, ModelSim.">
+  </picture>
+</a>
+
+<a href="https://github.com/sahiljo14/Kairyo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/kairyo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/kairyo-light.svg">
+    <img src="assets/cards/kairyo-dark.svg" width="100%" alt="Kairyo — AI-powered desktop app that upscales manga and anime with super-resolution models. Python, PyQt6, PyTorch, Real-ESRGAN.">
   </picture>
 </a>
 
@@ -66,7 +74,6 @@ Next up is [MangaForge](https://github.com/sahiljo14/MangaForge) — the reposit
 | **[url-shortener](https://github.com/sahiljo14/url-shortener)** | Link shortener with click tracking, built on Node.js, Express, and MongoDB Atlas — [live on Render](https://url-shortener-vtz9.onrender.com) | JavaScript |
 | **[esp8266-weather-station](https://github.com/sahiljo14/esp8266-weather-station)** | Temperature, humidity, and pressure on a 16×2 LCD and the Blynk app, with deep-sleep firmware for low power | Embedded C |
 | **[sahilsportfolio](https://github.com/sahiljo14/sahilsportfolio)** | Portfolio site, hand-written HTML/CSS/JS — [sahiljo14.github.io/sahilsportfolio](https://sahiljo14.github.io/sahilsportfolio/) | HTML / CSS |
-| **[MangaForge](https://github.com/sahiljo14/MangaForge)** | Next project — in development | — |
 
 <br>
 
@@ -94,9 +101,7 @@ Everything here appears in a repository above.
 | | |
 | :--- | :--- |
 | GitHub | [@sahiljo14](https://github.com/sahiljo14) |
-| LinkedIn | [linkedin.com/in/sahiljo14](https://www.linkedin.com/in/sahiljo14/) |
 | LeetCode | [leetcode.com/u/sahiljo](https://leetcode.com/u/sahiljo/) |
-| Email | <!-- TODO: add your email --> _coming soon_ |
 | Portfolio | [sahiljo14.github.io/sahilsportfolio](https://sahiljo14.github.io/sahilsportfolio/) |
 
 <a href="https://ko-fi.com/sahiljo">
