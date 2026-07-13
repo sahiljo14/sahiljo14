@@ -11,7 +11,7 @@ I build full-stack software: a real-time IoT platform that streams sensor data o
 
 I'm also an Electronics &amp; Communication Engineering student in India — which is why the same portfolio reaches down to ESP8266 firmware and a RISC-V CPU implemented in Verilog. Understanding the layer below makes you better at the layer above.
 
-The newest is [Kairyo](https://github.com/sahiljo14/Kairyo) — a desktop app that upscales manga and anime with AI super-resolution models, built with PyQt6 and PyTorch.
+The newest is [Kairyo](https://github.com/sahiljo14/Kairyo) — a desktop app that upscales manga and comics with AI super-resolution models, built with PyQt6 and PyTorch.
 
 <br>
 
