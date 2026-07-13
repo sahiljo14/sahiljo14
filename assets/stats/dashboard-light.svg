@@ -1,4 +1,4 @@
-<svg width="880" height="300" viewBox="0 0 880 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub activity dashboard — 140 commits, 8 repositories, top language Python">
+<svg width="880" height="300" viewBox="0 0 880 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub activity dashboard — 142 commits, 8 repositories, top language Python">
   <style>
     .kick { font: 600 11px ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; letter-spacing: 2px; fill: #818B98; }
     .num  { fill: #4F46E5; }
@@ -33,7 +33,7 @@
   
     <text class="stat-val" x="32" y="80">5</text>
     <text class="stat-lbl" x="32" y="96">STARS</text>
-    <text class="stat-val" x="132" y="80">140</text>
+    <text class="stat-val" x="132" y="80">142</text>
     <text class="stat-lbl" x="132" y="96">COMMITS</text>
     <text class="stat-val" x="232" y="80">0</text>
     <text class="stat-lbl" x="232" y="96">PRs</text>
@@ -282,6 +282,6 @@
     <rect x="837" y="81" width="7" height="7" rx="2" fill="#9BE9A8"/>
 
   <!-- Contribution total -->
-  <text class="contrib-total" x="576" y="270">147</text>
+  <text class="contrib-total" x="576" y="270">149</text>
   <text class="contrib-sub" x="607" y="270">this year</text>
 </svg>
