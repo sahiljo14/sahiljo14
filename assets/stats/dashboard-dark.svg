@@ -41,7 +41,7 @@
     <text class="stat-lbl" x="32" y="144">REPOS</text>
     <text class="stat-val" x="132" y="128">0</text>
     <text class="stat-lbl" x="132" y="144">ISSUES</text>
-    <text class="stat-val" x="232" y="128">0</text>
+    <text class="stat-val" x="232" y="128">1</text>
     <text class="stat-lbl" x="232" y="144">FOLLOWERS</text>
 
   <!-- Section: Languages -->
@@ -282,6 +282,7 @@
     <rect x="837" y="81" width="7" height="7" rx="2" fill="#21262D"/>
     <rect x="837" y="90" width="7" height="7" rx="2" fill="#21262D"/>
     <rect x="837" y="99" width="7" height="7" rx="2" fill="#21262D"/>
+    <rect x="837" y="108" width="7" height="7" rx="2" fill="#21262D"/>
 
   <!-- Contribution total -->
   <text class="contrib-total" x="576" y="270">155</text>
