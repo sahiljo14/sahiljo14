@@ -281,6 +281,7 @@
     <rect x="837" y="72" width="7" height="7" rx="2" fill="#21262D"/>
     <rect x="837" y="81" width="7" height="7" rx="2" fill="#21262D"/>
     <rect x="837" y="90" width="7" height="7" rx="2" fill="#21262D"/>
+    <rect x="837" y="99" width="7" height="7" rx="2" fill="#21262D"/>
 
   <!-- Contribution total -->
   <text class="contrib-total" x="576" y="270">155</text>
