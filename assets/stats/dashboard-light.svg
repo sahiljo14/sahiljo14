@@ -35,7 +35,7 @@
     <text class="stat-lbl" x="32" y="96">STARS</text>
     <text class="stat-val" x="132" y="80">165</text>
     <text class="stat-lbl" x="132" y="96">COMMITS</text>
-    <text class="stat-val" x="232" y="80">20</text>
+    <text class="stat-val" x="232" y="80">22</text>
     <text class="stat-lbl" x="232" y="96">PRs</text>
     <text class="stat-val" x="32" y="128">8</text>
     <text class="stat-lbl" x="32" y="144">REPOS</text>
@@ -283,9 +283,10 @@
     <rect x="837" y="90" width="7" height="7" rx="2" fill="#40C463"/>
     <rect x="837" y="99" width="7" height="7" rx="2" fill="#40C463"/>
     <rect x="837" y="108" width="7" height="7" rx="2" fill="#9BE9A8"/>
-    <rect x="837" y="117" width="7" height="7" rx="2" fill="#EBEDF0"/>
+    <rect x="837" y="117" width="7" height="7" rx="2" fill="#9BE9A8"/>
+    <rect x="837" y="126" width="7" height="7" rx="2" fill="#EBEDF0"/>
 
   <!-- Contribution total -->
-  <text class="contrib-total" x="576" y="270">193</text>
+  <text class="contrib-total" x="576" y="270">195</text>
   <text class="contrib-sub" x="607" y="270">this year</text>
 </svg>
